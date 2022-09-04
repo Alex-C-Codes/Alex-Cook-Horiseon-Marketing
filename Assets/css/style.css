@@ -5,11 +5,12 @@
     margin: 0;
 }
 
-/* adds background */
+/* adds background color to the body element */
 body {
     background-color: #d9dcd6;
 }
 
+/* this is a class that creates a format for header  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* this is a class that creates a format for header and h1 */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* this is a class that creates a color for header, h1, and .seo class */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* creatves format for header class and div class */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* creatves format for header class, div class, and unordered lists */
 .header div ul {
     list-style-type: none;
 }
 
+/* creatves format for header class, div class, unordered lists, and lists */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* creates format for the a element */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* creates format for the p element */
 p {
     font-size: 16px;
 }
 
+/* creates format for the hero class */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* creates format for the float-left class */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* creates format for the float-right class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* creates format for the content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* creates format for the benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,55 +101,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* creates format for the text on the right side */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* centers the headers of the benefit-lead, brand, and cost classes */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* creates format for the images on the right side */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* creates formatting for content within the center-bottom of the page */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -145,47 +130,13 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* creates height limitations for the middle content images */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/* creates margins and font-size for the center content headers */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
